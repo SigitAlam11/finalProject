@@ -16,7 +16,7 @@ class SplashScreen extends StatelessWidget {
     });
 
     return Scaffold(
-      backgroundColor: Color(0xff3A7FD5),
+      backgroundColor: const Color(0xff3A7FD5),
       body: Center(
         child: Image.asset("assets/images/img_edspert_logo_white.png"),
       ),
